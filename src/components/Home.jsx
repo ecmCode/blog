@@ -21,21 +21,20 @@ const Home = () => {
 
       <Title name="Testimonials" />
         <Gridbox grid="grid-cols-1 md:grid-cols-2 lg:grid-cols-3" url={city}>
-          <Testimonial name='Tabby' img={cat2} score={7}>
+          <Testimonial name='Tabby' img={cat2} score={8}>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime totam, non, magni at dolorum sunt ullam quidem minus explicabo nesciunt, aspernatur aperiam suscipit? Doloribus culpa doloremque odio illum ullam!
           </Testimonial>
           <Testimonial name='Ginger' img={cat1} score={10}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit earum alias voluptas inventore et soluta? Quasi, non perferendis odit laboriosam, molestias fugit maxime quibusdam nemo ea itaque, corporis repellat quisquam.
           </Testimonial>
-          <Testimonial name='Kitty' img={cat3} score={3}>
+          <Testimonial name='Kitty' img={cat3} score={7}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias corrupti nesciunt rem dolorum autem! Aut, laboriosam? Eligendi, cumque nulla. Odit dolorum consectetur recusandae possimus at voluptatibus sit similique quaerat ratione!
           </Testimonial>
           <Testimonial score={100}>
-            {/* The score automatically becomes 10 since and invalid value is provided*/}
+            {/* The score automatically becomes 10 since an invalid value is provided*/}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, aut totam labore nam, eum placeat aperiam laborum blanditiis, sed excepturi delectus quidem quaerat dignissimos quibusdam. Culpa incidunt nobis illo.
           </Testimonial>
-          <Testimonial score={-1}>
-            {/* The score automatically becomes 10 since and invalid value is provided*/}
+          <Testimonial score={3}>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam nesciunt quod exercitationem nobis provident eum delectus maxime facilis voluptatum libero, cupiditate magni perferendis repudiandae! Eum aperiam adipisci necessitatibus voluptates.
           </Testimonial>
           <Testimonial score={0}>

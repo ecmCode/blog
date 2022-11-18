@@ -22,7 +22,8 @@ const Testimonial = (props) => {
     return( props.children &&
         <div className="w-auto shadow-xl px-6 py-12 rounded-lg bg-cyan-100 ring-2 ring-cyan-400 text-cyan-900 backdrop-blur-sm opacity-0 animate-[fadein_1s_ease-in-out_1s_forwards]
         bg-opacity-80">
-            <div className={`rounded-full w-32 h-32 shadow-lg object-cover bg-cover m-auto bg-[url("${props.img || anom}")]`}></div>
+            <div className={`rounded-full w-32 h-32 shadow-lg object-cover bg-cover m-auto `}
+            style={{backgroundImage: `url("${props.img || anom}")`}}></div>
             <h3 className="text-center py-4">
                 {props.name || 'Anonymous'}
             </h3>
