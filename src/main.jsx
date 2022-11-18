@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' exact element={<Home/>} />
+        <Route path='/home' exact element={<Home/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/404' element={<NotFound/>} />
