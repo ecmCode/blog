@@ -12,8 +12,9 @@ const Home = () => {
   
 
   return (
-    <div className="w-full h-full bg-gradient-to-bl from-rose-100 to-zinc-100"> 
-      
+
+    <div className="w-full h-full bg-gradient-to-br from-purple-300 via-slate-50 to-cyan-300">    
+
       <WelcomePage />
       <Toolbox />
       <Title name="About Me" />      
@@ -63,20 +64,13 @@ const Home = () => {
         <BlogCard>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsa unde esse provident cupiditate porro eos. Non, officiis cum cumque deserunt deleniti libero numquam maiores adipisci blanditiis placeat. Laborum, quia!
         </BlogCard>
-        <BlogCard>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsa unde esse provident cupiditate porro eos. Non, officiis cum cumque deserunt deleniti libero numquam maiores adipisci blanditiis placeat. Laborum, quia!
-        </BlogCard>
-        <BlogCard title='Missing'>
-          {/* This Component doesn't show up since props.children isn't provided */}
-        </BlogCard>
-        <BlogCard title='Missing'>
-          {/* This Component doesn't show up since props.children isn't provided */}
-        </BlogCard>
+
       </Gridbox>
 
       <Footer />
 
     </div>
+
   )
 
 }

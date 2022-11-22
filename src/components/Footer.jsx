@@ -11,14 +11,14 @@ const Footer = () => {
 
             <div className="bg-rose-500 w-0 md:w-2 h-0 md:h-96"></div>
             
-            <div className="flex flex-col gap-4 ">
-                <div className="flex gap-6 text-2xl items-center justify-center my-6">
+            <div className="flex flex-col gap-4 text-right">
+                <div className="flex gap-6 text-4xl items-center justify-center my-6">
                     <i className="fa-brands fa-facebook"></i>
                     <i className="fa-brands fa-instagram"></i>
                     <i className="fa-brands fa-github"></i>
                 </div>
-                <p><i className="fa-solid fa-envelope text-xl mx-2" /> usermail@mail.com</p>
-                <p><i className="fa-solid fa-phone text-xl mx-2" /> +0 123 4567 890</p>
+                <p><i className="fa-solid fa-envelope text-2xl mx-2" /> usermail@mail.com</p>
+                <p><i className="fa-solid fa-phone text-2xl mx-2" /> +0 123 4567 890</p>
                 <p className="text-right italic"> 
                     Some Road, <br/>
                     Some City 12345,<br/>

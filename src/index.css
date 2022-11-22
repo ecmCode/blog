@@ -6,6 +6,7 @@
   html {
       scroll-behavior:smooth;
   }
+
   ::-webkit-scrollbar{
      @apply bg-gradient-to-b from-rose-100 to-cyan-100 w-3 shadow-xl;
   }
@@ -13,5 +14,6 @@
   ::-webkit-scrollbar-thumb{
       @apply bg-stone-700 bg-opacity-60 rounded;
   }
+
 }
 

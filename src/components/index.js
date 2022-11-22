@@ -2,7 +2,6 @@ import Home from "./Home";
 import Header from "./Header";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import BlogPost from './BlogPost'
 import WelcomePage from "./WelcomePage";
 import Title from './Title';
 import About from "./About";
@@ -18,7 +17,6 @@ export {Home,
         Header,
         Blog,
         Contact,
-        BlogPost,
         WelcomePage,
         Title,
         About,
